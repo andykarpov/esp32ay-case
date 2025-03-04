@@ -190,6 +190,26 @@ labelsPlane = [
 ];
 
 //===================================================================
+//  *** Images ***
+//-------------------------------------------------------------------
+//  Default origin = yappCoordBox: box[0,0,0]
+//
+//  Parameters:
+//   p(0) = posx
+//   p(1) = posy/z
+//   p(2) = rotation degrees CCW
+//   p(3) = depth : positive values go into case (Remove) negative values are raised (Add)
+//   p(4) = { yappLeft, yappRight, yappFront, yappBack, yappLid, yappBase } : plane
+//   p(5) = "image filename.svg"
+//  Optional:
+//   p(6) = Scale : Default = 1 : ratio to scale image by (making it larger or smaller)
+//-------------------------------------------------------------------
+imagesPlane =
+[
+[ 50, 30, 90, 0.2, yappBase, "models/karabasina2.svg", 0.4 ]
+];
+
+//===================================================================
 // *** Custom LED pipes ***
 //-------------------------------------------------------------------
 

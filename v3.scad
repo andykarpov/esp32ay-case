@@ -44,7 +44,7 @@ show3dModelsPCB = true;
 
 //-- PCB 3D models
 myPcb = "./models/ESP32AY.stl";
-myKnob = "./models/ESP32AYKnob.stl";
+myKnob = "./release/knob.stl";
 
 //-- Edit these parameters for your own board dimensions
 wallThickness       = 2; 
@@ -89,10 +89,10 @@ onLidGap            = 0;
 shiftLid            = 1;
 hideLidWalls        = false;    //-> false
 colorLid            = "yellow";  
-alphaLid            = 0.2;
+alphaLid            = 0.8;
 hideBaseWalls       = false;    //-> false
 colorBase           = "blue";
-alphaBase           = 0.2;
+alphaBase           = 0.8;
 showPCB             = true;
 showSwitches        = true;
 showPCBmarkers      = true;
@@ -111,9 +111,9 @@ if (show3dModelsPCB)
   {
     rotate([180,180,-90]) color("lightgray") import(myPcb);
   }
-  translate([84.5, 30.0, 23.5]) 
+  translate([84.5, 30.0, 29.0]) 
   {
-    rotate([180,180,-90]) color([0,0,1.0,0.2]) import(myKnob);
+    rotate([180,0,-90]) color([0,1.0,1.0,0.8]) import(myKnob);
   }
 }
 

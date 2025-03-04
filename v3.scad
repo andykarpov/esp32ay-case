@@ -177,7 +177,7 @@ cutoutsLeft =
 [
     [17.5, 1.2, 15, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD1
     [71.5, -4.6, 10, 4, 1, yappRoundedRect, yappCenter, yappCoordPCB], // power switch    
-    [17.5, 1.2, 18, 5, 2, yappRoundedRect, 1, yappCenter], // SD1 cutoff    
+    //[17.5, 1.2, 18, 5, 2, yappRoundedRect, 1, yappCenter], // SD1 cutoff    
 ];
 
 
